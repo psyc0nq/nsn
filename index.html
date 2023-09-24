@@ -1,70 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>EasyWeb Login</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyWeb Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container1">
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+            </nav>
+        </section>
+    </div>
 
-<div class="container1">
-            <section class="header">
-                <nav>
-                    <a href="index.html"><img src="images/logo.png.png"></a>
-                </nav>
-            
-            
-               </section>
-
-
-</div>
-
-
-
-       
-    </head>
-    <body>
-
-        <div class="container">
-            <h1>EasyWeb Login</h1>
-            <div class="contact-box">
-                <div class="contact-left">
-                    
-                    <form>
-
-                        <div class="input-row">
-                            <div class="input-group">
-                                <label>Username or Access Card</label>
-                                <input type="text">
-                            </div>
-
+    <div class="container">
+        <h1>EasyWeb Login</h1>
+        <div class="contact-box">
+            <div class="contact-left">
+                <form>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="username">Username or Access Card</label>
+                            <input type="text" id="username" name="username">
                         </div>
-                        <div class="input-row">
-                            <div class="input-group">
-                                <label>Enter Password </label>
-                                <input type="text">
-                            </div>
-
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="password">Enter Password</label>
+                            <input type="password" id="password" name="password">
                         </div>
-                        <button type="submit">Login</button>
-                        <div>
-                            <p2>Forget your username or password?></p2>
-                        </div>
-                         </div>
-
-                            
-                        
-
-
-                    </form>
-
-                </div>
-                
+                    </div>
+                    <button type="submit">Login</button>
+                    <div>
+                        <p>Forgot your username or password?</p>
+                    </div>
+                </form>
             </div>
- 
         </div>
-    </bosdy>
-
-
+    </div>
+</body>
 </html>
